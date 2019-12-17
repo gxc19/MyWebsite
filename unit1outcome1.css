@@ -1,3 +1,9 @@
+body{
+    background-image: url("https://data.whicdn.com/images/302439923/original.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 130%
+}
+
 ul {
     list-style-type: none;
     margin: 0;

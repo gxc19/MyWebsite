@@ -1,7 +1,9 @@
 body{
     background-image: url("https://steamuserimages-a.akamaihd.net/ugc/963096426582123478/99147810AD48AF17B9D42A86212CB2164E2C179A/");
     background-repeat: no-repeat;
-    background-size: 100% 165%
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 ul {
@@ -64,5 +66,13 @@ li.dropdown {
 .about-me {
     font-family: 'Megrim', cursive;
     font-size: 100px;
+    margin: 50px
+}
+
+.textbox {
+    align-items: center;
     border-style: solid;
+    text-align: center;
+    margin: 20px;
+    width: 900px
 }
