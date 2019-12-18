@@ -11,7 +11,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3D9926;
+    background-color: #8BC4B9;
 }
 
 li {
@@ -27,7 +27,7 @@ li a, .dropbtn{
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: green;
+    background-color: rgb(93, 184, 166);
 }
 
 li.dropdown {
@@ -55,4 +55,43 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+.header {
+    font-family: 'Megrim', cursive;
+    font-size: 100px;
+    margin: 50px
+}
+
+.textbox {
+    border-style: solid;
+    background-color: rgba(223, 231, 176, 0.827);
+    border-color: rgb(60, 153, 134);
+    text-align: center;
+    margin: 30px;
+    width: 1300px
+}
+
+.header-two {
+    font-size: 30px;
+    font-family: 'Megrim', cursive;
+    margin: 5px;
+}
+
+.header-three {
+    font-size: 25px;
+    font-family: 'Megrim', cursive;
+    margin: 0;
+}
+
+.text {
+    font-size: 20px;
 }

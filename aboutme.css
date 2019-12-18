@@ -59,20 +59,35 @@ li.dropdown {
 
 .container {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
 .about-me {
     font-family: 'Megrim', cursive;
     font-size: 100px;
-    margin: 50px
+    font-weight: bolder;
+    margin: 50px;
 }
 
 .textbox {
-    align-items: center;
     border-style: solid;
+    background-color: rgba(250, 231, 229, 0.815);
+    border-color: #CBCBCB;
     text-align: center;
-    margin: 20px;
-    width: 900px
+    margin: 30px;
+    width: 1300px
 }
+
+.middle-one {
+    font-size: 30px;
+    font-family: 'Megrim', cursive;
+    margin: 5px;
+}
+
+.middle-two {
+    font-size: 20px;
+}
+

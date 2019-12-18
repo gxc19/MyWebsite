@@ -1,9 +1,17 @@
+body {
+    background-image: url("https://thumbs.gfycat.com/QueasyRecentEmperorshrimp-size_restricted.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3D9926;
+    background-color: rgb(74, 129, 177);
 }
 
 li {
@@ -19,7 +27,7 @@ li a, .dropbtn{
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: green;
+    background-color: rgb(22, 84, 139);
 }
 
 li.dropdown {
@@ -47,4 +55,43 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+.header {
+    font-family: 'Megrim', cursive;
+    font-size: 100px;
+    margin: 50px
+}
+
+.textbox {
+    border-style: solid;
+    background-color: rgba(135, 181, 221, 0.806);
+    border-color: rgb(23, 58, 88);
+    text-align: center;
+    margin: 30px;
+    width: 1300px
+}
+
+.header-two {
+    font-size: 30px;
+    font-family: 'Megrim', cursive;
+    margin: 5px;
+}
+
+.header-three {
+    font-size: 25px;
+    font-family: 'Megrim', cursive;
+    margin: 0;
+}
+
+.text {
+    font-size: 20px;
 }

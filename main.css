@@ -63,6 +63,7 @@ li.dropdown {
 .name {
     font-family: 'Megrim', cursive;
     font-size: 150px;
+    font-weight: bold;
     justify-content: center;
     color: whitesmoke;
 }

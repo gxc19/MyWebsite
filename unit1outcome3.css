@@ -1,9 +1,17 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/35/49/be/3549beaae0ba185e62d53e57144caa0d.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3D9926;
+    background-color: rgb(212, 91, 54);
 }
 
 li {
@@ -19,7 +27,7 @@ li a, .dropbtn{
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: green;
+    background-color: rgb(194, 63, 24);
 }
 
 li.dropdown {
@@ -47,4 +55,44 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+.header {
+    font-family: 'Megrim', cursive;
+    font-size: 100px;
+    margin: 50px;
+    color: white;
+}
+
+.textbox {
+    border-style: solid;
+    background-color: rgba(235, 173, 110, 0.795);
+    border-color: rgb(168, 50, 14);
+    text-align: center;
+    margin: 30px;
+    width: 1300px
+}
+
+.header-two {
+    font-size: 30px;
+    font-family: 'Megrim', cursive;
+    margin: 5px;
+}
+
+.header-three {
+    font-size: 25px;
+    font-family: 'Megrim', cursive;
+    margin: 0;
+}
+
+.text {
+    font-size: 20px;
 }
