@@ -78,10 +78,11 @@ li.dropdown {
     border-color: #CBCBCB;
     text-align: center;
     margin: 30px;
-    width: 1300px
+    width: 1200px
 }
 
 .middle-one {
+    text-decoration: underline;
     font-size: 30px;
     font-family: 'Megrim', cursive;
     margin: 5px;

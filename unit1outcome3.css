@@ -78,7 +78,7 @@ li.dropdown {
     border-color: rgb(168, 50, 14);
     text-align: center;
     margin: 30px;
-    width: 1300px
+    width: 1200px
 }
 
 .header-two {
@@ -88,6 +88,7 @@ li.dropdown {
 }
 
 .header-three {
+    text-decoration: underline;
     font-size: 25px;
     font-family: 'Megrim', cursive;
     margin: 0;
