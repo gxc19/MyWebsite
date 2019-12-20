@@ -1,9 +1,10 @@
+
 body{
-    background-image: url("https://media0.giphy.com/media/FKzNpY1HOxKyk/source.gif");
+    background-image: url("https://thumbs.gfycat.com/PertinentImpoliteChinchilla-size_restricted.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100vw; 
 }
 
 ul {
@@ -11,7 +12,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8BC4B9;
+    background-color: rgb(97, 107, 192);
 }
 
 li {
@@ -27,7 +28,7 @@ li a, .dropbtn{
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(93, 184, 166);
+    background-color: rgb(61, 71, 163);
 }
 
 li.dropdown {
@@ -73,8 +74,8 @@ li.dropdown {
 
 .textbox {
     border-style: solid;
-    background-color: rgba(223, 231, 176, 0.827);
-    border-color: rgb(60, 153, 134);
+    background-color: rgba(123, 133, 226, 0.765);
+    border-color: rgb(36, 45, 127);
     text-align: center;
     margin: 30px;
     width: 1200px
@@ -96,3 +97,4 @@ li.dropdown {
 .text {
     font-size: 20px;
 }
+
